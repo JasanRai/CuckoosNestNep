@@ -145,10 +145,18 @@ footer {
 .col-2 {
   flex: 5 1 50rem; /*1 for 4, 1 for Shrinkable, 25rem width*/
 }
+.min-30 {
+  min-width: 30rem;
+}
 
 img {
   border-radius: 0.5rem;
   width: 35rem;
+}
+
+img.small {
+  max-width: 5rem;
+  width: 100%;
 }
 
 img.medium {
