@@ -1,7 +1,23 @@
+import bcrypt from "bcryptjs";
+
 const data = {
+  users: [
+    {
+      name: "Jasan",
+      email: "cuckoosadmin@example.com",
+      password: bcrypt.hashSync("1234", 8),
+      isAdmin: true,
+    },
+    {
+      name: "Rai",
+      email: "rai@example.com",
+      password: bcrypt.hashSync("1234", 8),
+      isAdmin: false,
+    },
+  ],
+
   products: [
     {
-      _id: "1",
       name: "Black & Grey Checkered Shirt",
       category: "Shirts",
       image: "/images/checkeredShirt.jpg",
@@ -13,8 +29,7 @@ const data = {
       description: "high quality products",
     },
     {
-      _id: "2",
-      name: "Black & Grey Checkered Shirt",
+      name: "Grey Checkered Shirt",
       category: "Shirts",
       image: "/images/checkeredShirt.jpg",
       price: 120,
@@ -25,8 +40,7 @@ const data = {
       description: "high quality products",
     },
     {
-      _id: "3",
-      name: "Black & Grey Checkered Shirt",
+      name: "Black Checkered Shirt",
       category: "Shirts",
       image: "/images/checkeredShirt.jpg",
       price: 120,
@@ -37,7 +51,6 @@ const data = {
       description: "high quality products",
     },
     {
-      _id: "4",
       name: "Orange Jacket",
       category: "Jacket",
       image: "/images/OrangeJacket.jpg",
@@ -49,7 +62,6 @@ const data = {
       description: "high quality products",
     },
     {
-      _id: "5",
       name: "Dark Blue Denim Jacket",
       category: "Jacket",
       image: "/images/DenimJacket.jpg",
