@@ -139,11 +139,11 @@ footer {
 }
 
 .col-1 {
-  flex: 1 1 25rem; /*1 for 4, 1 for Shrinkable, 25rem width*/
+  flex: 2 1 25rem; /*1 for 4, 1 for Shrinkable, 25rem width*/
 }
 
 .col-2 {
-  flex: 5 1 50rem; /*1 for 4, 1 for Shrinkable, 25rem width*/
+  flex: 4 1 50rem; /*1 for 4, 1 for Shrinkable, 25rem width*/
 }
 .min-30 {
   min-width: 30rem;

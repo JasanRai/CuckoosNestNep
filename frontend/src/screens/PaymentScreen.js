@@ -9,6 +9,7 @@ export default function PaymentScreen(props) {
   if (!shippingAddress.address) {
     props.history.push("/shipping");
   }
+  console.log(shippingAddress);
   const [paymentMethod, setPaymentMethod] = useState("PayPal");
   const dispatch = useDispatch();
   const submitHandler = (e) => {
