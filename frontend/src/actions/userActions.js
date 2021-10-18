@@ -52,5 +52,6 @@ export const signout = () => (dispatch) => {
   // returning dispatch in body of the function
   localStorage.removeItem("userInfo");
   localStorage.removeItem("cartItems");
+  localStorage.removeItem("shippingAddress");
   dispatch({ type: USER_SIGNOUT });
 };
