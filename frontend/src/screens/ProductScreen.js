@@ -1,3 +1,4 @@
+import React from "react";
 import Rating from "../components/Rating";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";

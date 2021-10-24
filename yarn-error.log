@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\jasan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\jasan\bin;C:\Users\jasan\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\jasan\AppData\Local\Programs\Python\Python39;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\jasan\AppData\Local\Microsoft\WindowsApps;C:\Users\jasan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jasan\AppData\Local\GitHubDesktop\bin;C:\Users\jasan\.dotnet\tools;C:\Users\jasan\AppData\Roaming\npm;C:\Users\jasan\AppData\Local\Programs\mongosh
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\jasan\OneDrive\Desktop\Cuckoos Nest Nep\package.json: Unexpected token } in JSON at position 794
+      at JSON.parse (<anonymous>)
+      at C:\Users\jasan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\jasan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\jasan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "cuckoos-nest-nep",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JasanRai/Cuckoo-s-Nest-Nep.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/JasanRai/Cuckoo-s-Nest-Nep/issues"
+    },
+    "homepage": "https://github.com/JasanRai/Cuckoo-s-Nest-Nep#readme",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "express-async-handler": "^1.1.4",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.0.9",
+      "npm": "^8.1.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+    },
+    "devDependencies": {
+      "eslint": "^7.32.0",
+      "eslint-plugin-react": "^7.26.1",
+      "nodemon": "^2.0.13"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
